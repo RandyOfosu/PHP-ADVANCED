@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoer veld</title>
+  </head>
+  <body>
+    <form action="mijngegevens.php" method="POST">
+      <!-- Buttons voor geslacht -->
+      <input type="radio" name="gender" value="male">Male
+        <br>
+        <input type="radio" name="gender" value="female">Female
+        <br>
+        <br>
+
+        <!-- Hiermee kan je een favo kleur selecteren -->
+        <label>Lievelingskleur:</label>
+        <select name="lievelingskleur" id="lievelingskleur">
+          <option value="none">kies een kleur</option>
+          <option value="red">red</option>
+          <option value="yellow">yellow</option>
+          <option value="lime">lime</option>
+          <option value="blue">blue</option>
+          <option value="purple">purple</option>
+        </select>
+        <br>
+
+        <!-- persoonsgegevens voor het invullen van formulier -->
+        <br>
+        <label>Voornaam:</label>
+        <br>
+        <input type="text" name="voornaam">
+        <br>
+        <label>Achternaam:</label>
+        <br>
+        <input type="text" name="achternaam">
+        <br>
+        <label>Klas:</label>
+        <br>
+        <input type="text" name="klas">
+        <br>
+        <label>Leeftijd:</label>
+        <br>
+        <input type="text" name="leeftijd">
+        <br>
+        <label>Adres:</label>
+        <br>
+        <input type="text" name="adres">
+        <br>
+        <label>Plaatsnaam:</label>
+        <br>
+        <input type="text" name="plaatsnaam">
+        <br>
+        <label>Favoriete Muziekband:</label>
+        <br>
+        <input type="text" name="favorieteMuziekband">
+        <br>
+        <br>
+        <input type="submit" value="verzend"></input>
+
+    </form>
+  </body>
+</html>
+
