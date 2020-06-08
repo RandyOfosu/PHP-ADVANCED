@@ -15,7 +15,7 @@ function schrijfKleur($color){
     schrijfKleur("red");
     schrijfKleur("blue");
     schrijfKleur("green");
-    schrijfKleur("#FF30109");
+    schrijfKleur("#0070FF");
 ?>   
 
 <p >
