@@ -10,7 +10,7 @@
 
 
 function schrijfKleur($color){
-    echo "<p style='color: $color';>Deze tekst is nu een andere kleur</p>";
+    echo "<p style='color: $color';>Deze tekst heeft de kleur $color</p>";
 }
     schrijfKleur("red");
     schrijfKleur("blue");
