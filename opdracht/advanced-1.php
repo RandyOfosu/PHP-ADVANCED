@@ -3,25 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formuliertje</title>
 </head>
 <body>
-    <?php
+    <form action='advanced-2.php' method='post'>
 
-    $kleuren = array("red", "blue", "green", "black", "brown");
+    <!-- Inputbox table-border -->
+    <label>tableranddikte (px)</label>
+    <input type="text" id='tableDikte'>
+    <br>
 
-    ?>
+    <!-- Inputbox padding -->
+    <label>padding (px)</label>
+    <input type="text" id='padding'>
+    <br>
 
-    <form action=''>
-    <label>Achtergrondkleur</label>
+    <!-- Selectionbox Tekstkleur -->
+    <label>Tekstkleur</label>
     <select name='tekstkleur' id='tekstkleur'>
-    <?php     foreach ($kleuren as $teint) {
-        echo "<option value='teint'><?php echo $teint?></option>";
+    <?php   
+        $kleuren = array("red", "blue", "green", "black", "brown");
+
+        foreach ($kleuren as $teint) {
+        echo "<option value='$teint'>$teint</option>"; 
     }
     ?>
-    </form>
     </select>
-    
+    <br>
+
+    <!-- Selectionbox Achtergrondkleur -->
+    <label>Achtergrondkleur</label>
+    <select name="achtergrondkleur" id="achtergrondkleur">
+    <?php
+    foreach($kleuren as $teint){
+    echo "<option value='$teint'>$teint</option>";
+    }
+    ?>
+    </select>
+    <br>
+
+    <button type="submit">verstuur</button>
+
+    </form>
     
 
 </body>
