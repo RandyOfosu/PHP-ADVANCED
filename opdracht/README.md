@@ -50,14 +50,14 @@ d. padding (in pixels voor de tabelcel)
 5. [x] De ingevoerde data van het formulier worden verstuurd (gePOST) naar het bestand advanced-2.php
 6. [x] In advanced-2.php maak je een associatieve array aan met gegevens over jezelf. Bijvoorbeeld: naam, leeftijd, muzieksmaak, woonplaats, sport, etc.
 7. [x] Met een foreach loop doorloop je deze gemaakte array en maak je hiervan een tabel
-8. [ ] De stijl van deze tabel en inhoud wordt bepaald door de data die is verstuurd met het formulier in advanced-1.php
-9. [ ] Als dit helemaal werkt ga je verder met de tweede opdracht. Dit is een uitbreiding van deze opdracht
+8. [x] De stijl van deze tabel en inhoud wordt bepaald door de data die is verstuurd met het formulier in advanced-1.php
+9. [x] Als dit helemaal werkt ga je verder met de tweede opdracht. Dit is een uitbreiding van deze opdracht
 
 ## Opdracht 2
 
-1. [ ] In opdracht 1 heb je een tabelgemaakt, waarbij in een foreach loop steeds een tabelrij werd gemaakt. Nu vervang je de code in de foreach loop met de aanroep van een functie met de naam maakRij()
-2. [ ] In het bestand advanced-2.php maak je een functie met de naam maakRij die twee argumenten kan meekrijgen. In deze functie wordt de tabelrij geschreven die in opdracht 1 in de foreach loop stond
-3. [ ] Binnen de foreach loop roep je de functie maakRij dus aan met twee argumenten die de key en de value zijn van de array met jouw gegevens
+1. [x] In opdracht 1 heb je een tabelgemaakt, waarbij in een foreach loop steeds een tabelrij werd gemaakt. Nu vervang je de code in de foreach loop met de aanroep van een functie met de naam maakRij()
+2. [x] In het bestand advanced-2.php maak je een functie met de naam maakRij die twee argumenten kan meekrijgen. In deze functie wordt de tabelrij geschreven die in opdracht 1 in de foreach loop stond
+3. [x] Binnen de foreach loop roep je de functie maakRij dus aan met twee argumenten die de key en de value zijn van de array met jouw gegevens
 
 ## Eindresultaat
 

@@ -6,34 +6,35 @@
     <title>Formuliertje</title>
 </head>
 <body>
-    <form action='advanced-2.php' method='POST'>
+    <form action='advanced-2.php' method='GET'>
 
     <!-- Inputbox table-border -->
-    <label>tableranddikte (px)</label>
-    <input type="text" id='tableDikte'>
+    <label>Tabelranddikte (px)</label>
+    <input type="text" name='tabelDikte' id='tabeldikte'>
     <br>
 
     <!-- Inputbox padding -->
-    <label>padding (px)</label>
-    <input type="text" id='padding'>
+    <label>Padding (px)</label>
+    <input type="text" name='padding' id='padding'>
     <br>
 
     <!-- Selectionbox Tekstkleur -->
     <label>Tekstkleur</label>
-    <select name='tekstkleur' id='tekstkleur'>
+    <select name='tekstKleur' id='tekstkleur'>
     <?php   
-        $kleuren = array("red", "blue", "green", "black", "brown");
+        $kleuren = array("white","red", "blue", "green", "black", "brown");
 
         foreach ($kleuren as $teint) {
         echo "<option value='$teint'>$teint</option>"; 
     }
+    
     ?>
     </select>
     <br>
 
     <!-- Selectionbox Achtergrondkleur -->
     <label>Achtergrondkleur</label>
-    <select name="achtergrondkleur" id="achtergrondkleur">
+    <select name="achtergrondKleur" id="achtergrondKleur">
     <?php
     foreach($kleuren as $teint){
     echo "<option value='$teint'>$teint</option>";
