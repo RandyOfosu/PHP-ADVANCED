@@ -14,7 +14,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ingevulde formuliertje</title>
 </head>
+
+<style>
+    table, td{
+        border: solid black <?php echo $_POST["tableDikte"];?>
+    }
+</style>
+
 <body>
+
 <table>
 <?php foreach ($ik as $gegevens => $value):?>
 <tr>
@@ -25,5 +33,3 @@
 </table>
 </body>
 </html>
-
-<?php echo $_POST["tableDikte"];?>

@@ -6,7 +6,7 @@
     <title>Formuliertje</title>
 </head>
 <body>
-    <form action='advanced-2.php' method='post'>
+    <form action='advanced-2.php' method='POST'>
 
     <!-- Inputbox table-border -->
     <label>tableranddikte (px)</label>
